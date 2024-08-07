@@ -1,0 +1,66 @@
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.finger-paint-regular {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+body{
+    background: linear-gradient( to right,rgb(70, 40, 40),rgb(24, 24, 26) );
+    margin: 0;
+    padding:0;
+    padding-bottom: 75px;
+}
+
+header{
+    text-align: center;
+}
+
+.active{
+    background-color:rgb(168, 52, 52) ;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+   
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 3px 5px 3px solid rgb(69, 136, 69) ;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
